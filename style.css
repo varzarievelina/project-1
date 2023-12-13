@@ -1,47 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
 
-/* Reset styles */
-/* ... */
+body, html {
+    height: 100%;
+}
 
-/* Navigation styles */
-/* ... */
+nav li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+} 
 
-/* Hero section styles */
-/* ... */
-
-/* About section styles */
-/* ... */
-
-/* World Travel section styles */
-.world-travel {
-    padding: 50px 0;
-    background-color: #f5f5f5;
+nav li:hover {
+    background-color: #e5dbdb;
+    border-radius: 5px;
+} 
+nav {
+    padding: 15px;
+    background-color: #faf8ea;
     text-align: center;
 }
 
-.world-travel h2 {
-    color: #ff80ab;
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.travel-content {
+.hero {
     display: flex;
-    justify-content: space-around;
+    height: 50%;
+    background-color: #faf8ea;
+    justify-content: center;
     align-items: center;
+    margin-right: 30px;
+    padding: 20px;
+}
+.hero-text  h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    line-height: 110%;
+}
+.hero-text  p {
+    font-size: 25px;
+    font-weight: bolder;
 }
 
-.travel-text {
-    flex: 1;
-    text-align: left;
-    padding: 0 20px;
+
+.hero-image img {
+    height: 280px;
+    margin-left: 120px;
+}
+
+.hero-text button {
+    height: 40px;
+    width: 130px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.hero-text button:hover {
+    border: none;
+    background-color: #e5dbdb;
+}
+
+.icons li img {
+    height: 60px;
+    margin-right: 20px;
+}
+
+.icons li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.icons li p {
+    font-size: 12px;
+    font-weight: normal;
+    margin-right: 120px;
+}
+
+.help-content {
+    display: flex;
+    justify-content: center;
+}
+
+.help h3, .about h3, .skills h3, .container>h2 {
+    text-align: center;
+padding: 50px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.obj {
+    width: 400px;
+}
+.obj li {
+    font-size: 12px;
+    font-weight: normal;
+    padding: 5px;
+    list-style-type: circle;
+    margin: 5px 0 20px 0;;
+
+}
+
+.obj > p{
+    padding-left: 5px;
+    font-weight: 500;
+}
+
+section.about {
+    background-color: #faf8ea;
+
+}
+
+section.about img {
+    height: 400px;
+    margin-top: -100px;
+}
+
+section.skills img {
+    height: 390px;
+    margin-top: -50px;
+}
+
+.front, .react, .py, .djan, .ml{
+    height: 10px;
+    width: 300px;
+    background-color: #c4c4c4;
+    margin: 0 0 0 5px;
+    border-radius: 5px;
+    margin: -15px 0 10px 0;
+}
+
+.front .child {
+    margin: 0 0 0 5px;
+    height: 10px;
+    width: 250px;
+    background-color: #27d342;
+    margin: 0;
+    border-radius: 5px;
+    
+}
+
+.py .child {
+    margin: 0 0 0 5px;
+    height: 10px;
+    width: 280px;
+    background-color: #27d342;
+    margin: 0;
+    border-radius: 5px;
+    
+}
+
+.djan .child {
+    margin: 0 0 0 5px;
+    height: 10px;
+    width: 150px;
+    background-color: #27d342;
+    margin: 0;
+    border-radius: 5px;
+    
+}
+
+.react .child {
+    margin: 0 0 0 5px;
+    height: 10px;
+    width: 160px;
+    background-color: #27d342;
+    margin: 0;
+    border-radius: 5px;
+    
+}
+
+.ml .child {
+    margin: 0 0 0 5px;
+    height: 10px;
+    width: 290px;
+    background-color: #27d342;
+    margin: 0;
+    border-radius: 5px;
+    
+}
+hi {
+    padding-bottom: 20px;
+}
+
+
+.obj1 .fr {
+    font-weight: 500;
     font-size: 18px;
-    color: #333333;
 }
-
-.travel-image img {
-    width: 70%;
-    max-width: 500px;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-}
-
