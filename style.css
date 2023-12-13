@@ -1,58 +1,65 @@
-/* Reset styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #fefefe;
-    color: #333333;
-}
+/* Reset styles */
+/* ... */
 
 /* Navigation styles */
-.girly-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    background-color: #ffd9e8;
-    padding: 15px 0;
-}
-
-.girly-nav li {
-    margin: 0 15px;
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-    cursor: pointer;
-}
+/* ... */
 
 /* Hero section styles */
-.hero {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 50px 0;
-}
+/* ... */
 
-.hero-text {
+/* Help section styles */
+.help {
+    padding: 50px 0;
+    background-color: #fff5f8;
     text-align: center;
 }
 
-.hero-text h1 {
-    font-size: 40px;
+.help h3 {
     color: #ff80ab;
-}
-
-.hero-text p {
-    font-size: 20px;
+    font-size: 36px;
     margin-bottom: 20px;
-    color: #666666;
 }
 
-.hero-image img {
-    border-radius: 50%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+/* About section styles */
+.about {
+    padding: 50px 0;
+    background-color: #fce4ec;
+    text-align: center;
 }
-/* Add styles for other sections and content as needed */
+
+.about h3 {
+    color: #ff80ab;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Skills section styles */
+.skills {
+    padding: 50px 0;
+    background-color: #f8bbd0;
+    text-align: center;
+}
+
+.skills h3 {
+    color: #ff80ab;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Recent Work section styles */
+.recent-work {
+    padding: 50px 0;
+    background-color: #f48fb1;
+    text-align: center;
+}
+
+.recent-work h2 {
+    color: #ff80ab;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Add specific styles for each section and their content */
+/* ... */
+
